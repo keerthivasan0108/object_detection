@@ -10,7 +10,7 @@ img = cv2.imread("dog_bike_car.jpg")
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
-
+print('hello world')
 # Use minSize because for not
 # bothering with extra-small
 # dots that would look like STOP signs
